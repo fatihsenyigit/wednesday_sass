@@ -2,6 +2,7 @@
 @import './base/reset';
 @import './components/footer','./components/nav','./components/responsive';
 @import './pages/about','./pages/contact','./pages/home','./pages/projects';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
 body {
     font-family: $font-family;
@@ -13,6 +14,7 @@ body {
 
 a{
     color: $text-color;
+    text-decoration: none;
 }
 
 h1,h2,h3{
