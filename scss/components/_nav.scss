@@ -17,7 +17,7 @@
     font-weight: 500;
     @include soft(.5s);
     &:hover{
-        color: #000;
+        color: lighten($secondary-color, 20%);
     }
     &--active{
         color: $secondary-color;

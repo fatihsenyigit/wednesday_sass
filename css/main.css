@@ -6,7 +6,7 @@
 }
 
 .about-bgImg-container {
-  height: 50vh;
+  height: auto;
   width: 100%;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/model-1.jpg");
   background-position: center;
@@ -14,12 +14,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 60vh;
 }
 .about-bgImg-container .about__bio-image {
   text-align: center;
+  width: 85%;
+  margin: 0.5rem auto;
 }
 .about-bgImg-container .about__bio-image h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #ff652f;
 }
 .about-bgImg-container .about__bio-image p {
@@ -30,7 +33,7 @@
 
 .about__container {
   width: 70%;
-  margin: 2rem auto;
+  margin: 0.5rem auto;
 }
 .about .about__job {
   margin: 1rem;
@@ -110,7 +113,7 @@
 .project-bgImg-container {
   height: 30vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/project-4.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -168,18 +171,24 @@ footer.horizontal {
   align-items: flex-end;
   padding: 1rem;
 }
+footer.horizontal i {
+  font-size: 1.5rem;
+}
 
 footer.vertical {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 footer.vertical .social-icons {
   display: flex;
   flex-direction: column;
   position: fixed;
   bottom: 1rem;
+}
+footer.vertical .social-icons i {
+  font-size: 1.5rem;
 }
 footer.vertical .copyright {
   position: fixed;
@@ -196,6 +205,9 @@ footer.middle {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
+}
+footer.middle i {
+  font-size: 1.5rem;
 }
 
 .nav {
@@ -219,7 +231,7 @@ footer.middle {
   transition: all 0.5s;
 }
 .nav__link:hover {
-  color: #000;
+  color: #ffb195;
 }
 .nav__link--active {
   color: #ff652f;
