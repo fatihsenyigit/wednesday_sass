@@ -56,11 +56,11 @@
   background-size: cover;
 }
 .contact-bgImg-container .nav {
-  height: 40vh;
+  height: 20vh;
 }
 
 .contact {
-  height: 40vh;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
